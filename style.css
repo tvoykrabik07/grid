@@ -1,0 +1,1040 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    width: 45%;
+    display: grid;
+    grid-template-columns: repeat(29, 1fr);
+}
+
+article{
+    height: 21px;
+}
+
+article:nth-child(1){
+    background-color: plum;
+    grid-column: span 8;
+}
+
+article:nth-child(2){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 2;
+}
+
+article:nth-child(3){
+    background-color: plum;
+    grid-column: span 19;
+}
+
+article:nth-child(4){
+    background-color: plum;
+    grid-column: span 8;
+}
+
+article:nth-child(5){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 3;
+}
+
+article:nth-child(6){
+    background-color: plum;
+    grid-column: span 18;
+}
+
+article:nth-child(7){
+    background-color: plum;
+    grid-column: span 8;
+}
+
+article:nth-child(8){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 3;
+}
+
+article:nth-child(9){
+    background-color: plum;
+    grid-column: span 13;
+}
+
+article:nth-child(10){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 3;
+}
+
+article:nth-child(11){
+    background-color: rgb(184, 105, 44);
+    grid-column: span 1;
+}
+
+article:nth-child(12){
+    background-color: plum;
+    grid-column: span 1;
+}
+
+article:nth-child(13){
+    background-color: plum;
+    grid-column: span 7;
+}
+
+article:nth-child(14){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 2;
+}
+
+article:nth-child(15){
+    background-color: rgb(184, 105, 44);
+    grid-column: span 1;
+}
+
+article:nth-child(16){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 2;
+}
+
+article:nth-child(17){
+    background-color: plum;
+    grid-column: span 11;
+}
+
+article:nth-child(18){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 4;
+}
+
+article:nth-child(19){
+    background-color: rgb(184, 105, 44);
+    grid-column: span 1;
+}
+
+article:nth-child(20){
+    background-color: plum;
+    grid-column: span 1;
+}
+
+article:nth-child(21){
+    background-color: plum;
+    grid-column: span 7;
+}
+
+article:nth-child(22){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 2;
+}
+
+article:nth-child(23){
+    background-color: rgb(184, 105, 44);
+    grid-column: span 2;
+}
+
+article:nth-child(24){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 2;
+}
+
+article:nth-child(25){
+    background-color: plum;
+    grid-column: span 9;
+}
+
+article:nth-child(26){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 5;
+}
+
+article:nth-child(27){
+    background-color: rgb(184, 105, 44);
+    grid-column: span 1;
+}
+
+article:nth-child(28){
+    background-color: plum;
+    grid-column: span 1;
+}
+
+article:nth-child(29){
+    background-color: plum;
+    grid-column: span 7;
+}
+
+article:nth-child(30){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 3;
+}
+
+article:nth-child(31){
+    background-color: rgb(184, 105, 44);
+    grid-column: span 2;
+}
+
+article:nth-child(32){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 4;
+}
+
+article:nth-child(33){
+    background-color: plum;
+    grid-column: span 5;
+}
+
+article:nth-child(34){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 7;
+}
+
+article:nth-child(35){
+    background-color: rgb(184, 105, 44);
+    grid-column: span 1;
+}
+
+article:nth-child(36){
+    background-color: plum;
+    grid-column: span 7;
+}
+
+article:nth-child(37){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 17;
+}
+
+article:nth-child(38){
+    background-color: rgb(184, 105, 44);
+    grid-column: span 2;
+}
+
+article:nth-child(39){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 2;
+}
+
+article:nth-child(40){
+    background-color: rgb(184, 105, 44);
+    grid-column: span 1;
+}
+
+article:nth-child(41){
+    background-color: plum;
+    grid-column: span 6;
+}
+
+article:nth-child(42){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 18;
+}
+
+article:nth-child(43){
+    background-color: rgb(184, 105, 44);
+    grid-column: span 2;
+}
+
+article:nth-child(44){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 1;
+}
+
+article:nth-child(45){
+    background-color: rgb(184, 105, 44);
+    grid-column: span 1;
+}
+
+article:nth-child(46){
+    background-color: plum;
+    grid-column: span 1;
+}
+
+article:nth-child(47){
+    background-color: plum;
+    grid-column: span 4;
+}
+
+article:nth-child(48){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 8;
+}
+
+article:nth-child(49){
+    background-color: rgb(184, 105, 44);
+    grid-column: span 1;
+}
+
+article:nth-child(50){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 10;
+}
+
+article:nth-child(51){
+    background-color: rgb(184, 105, 44);
+    grid-column: span 3;
+}
+
+article:nth-child(52){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 1;
+}
+
+article:nth-child(53){
+    background-color: rgb(184, 105, 44);
+    grid-column: span 1;
+}
+
+article:nth-child(54){
+    background-color: plum;
+    grid-column: span 1;
+}
+
+article:nth-child(55){
+    background-color: plum;
+    grid-column: span 3;
+}
+
+article:nth-child(56){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 8;
+}
+
+article:nth-child(57){
+    background-color: rgb(184, 105, 44);
+    grid-column: span 2;
+}
+
+article:nth-child(58){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 10;
+}
+
+article:nth-child(59){
+    background-color: rgb(184, 105, 44);
+    grid-column: span 3;
+}
+
+article:nth-child(60){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 1;
+}
+
+article:nth-child(61){
+    background-color: rgb(184, 105, 44);
+    grid-column: span 1;
+}
+
+article:nth-child(62){
+    background-color: plum;
+    grid-column: span 1;
+}
+
+article:nth-child(63){
+    background-color: plum;
+    grid-column: span 2;
+}
+
+article:nth-child(64){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 5;
+}
+
+article:nth-child(65){
+    background-color: rgb(184, 105, 44);
+    grid-column: span 1;
+}
+
+article:nth-child(66){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 2;
+}
+
+article:nth-child(67){
+    background-color: rgb(184, 105, 44);
+    grid-column: span 2;
+}
+
+article:nth-child(68){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 3;
+}
+
+article:nth-child(69){
+    background-color: rgb(214, 155, 95);
+    grid-column: span 1;
+}
+
+article:nth-child(70){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 6;
+}
+
+article:nth-child(71){
+    background-color: rgb(184, 105, 44);
+    grid-column: span 1;
+}
+
+article:nth-child(72){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 5;
+}
+
+article:nth-child(73){
+    background-color: plum;
+    grid-column: span 1;
+}
+
+article:nth-child(74){
+    background-color: plum;
+    grid-column: span 2;
+}
+
+article:nth-child(75){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 4;
+}
+
+article:nth-child(76){
+    background-color: rgb(184, 105, 44);
+    grid-column: span 2;
+}
+
+article:nth-child(77){
+    background-color:rgb(226, 118, 75);
+    grid-column: span 5;
+}
+
+article:nth-child(78){
+    background-color: rgb(214, 155, 95);
+    grid-column: span 3;
+}
+
+article:nth-child(79){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 13;
+}
+
+article:nth-child(80){
+    background-color: plum;
+    grid-column: span 1;
+}
+
+article:nth-child(81){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 4;
+}
+
+article:nth-child(82){
+    background-color: white;
+    grid-column: span 1;
+}
+
+article:nth-child(83){
+    background-color: black;
+    grid-column: span 2;
+}
+
+article:nth-child(84){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 5;
+}
+
+article:nth-child(85){
+    background-color: rgb(214, 155, 95);
+    grid-column: span 3;
+}
+
+article:nth-child(86){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 13;
+}
+
+article:nth-child(87){
+    background-color: plum;
+    grid-column: span 1;
+}
+
+article:nth-child(88){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 1;
+}
+
+article:nth-child(89){
+    background-color: rgb(214, 155, 95);
+    grid-column: span 2;
+}
+
+article:nth-child(90){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 1;
+}
+
+article:nth-child(91){
+    background-color: black;
+    grid-column: span 3;
+}
+
+article:nth-child(92){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 3;
+}
+
+article:nth-child(93){
+    background-color: rgb(214, 155, 95);
+    grid-column: span 1;
+}
+
+article:nth-child(94){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 2;
+}
+
+article:nth-child(95){
+    background-color: black;
+    grid-column: span 1;
+}
+
+article:nth-child(96){
+    background-color: white;
+    grid-column: span 1;
+}
+
+article:nth-child(97){
+    background-color: black;
+    grid-column: span 1;
+}
+
+article:nth-child(98){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 12;
+}
+
+article:nth-child(99){
+    background-color: plum;
+    grid-column: span 1;
+}
+
+article:nth-child(100){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 1;
+}
+
+article:nth-child(101){
+    background-color:rgb(214, 155, 95) ;
+    grid-column: span 2;
+}
+
+article:nth-child(102){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 1;
+}
+
+article:nth-child(103){
+    background-color: white;
+    grid-column: span 1;
+}
+
+article:nth-child(104){
+    background-color: black;
+    grid-column: span 2;
+}
+
+article:nth-child(105){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 2;
+}
+
+article:nth-child(106){
+    background-color: rgb(214, 155, 95);
+    grid-column: span 2;
+}
+
+article:nth-child(107){
+    background-color: rgb(184, 105, 44);
+    grid-column: span 1;
+}
+
+article:nth-child(108){
+    background-color: black;
+    grid-column: span 1;
+}
+
+article:nth-child(109){
+    background-color: white;
+    grid-column: span 1;
+}
+
+article:nth-child(110){
+    background-color: black;
+    grid-column: span 3;
+}
+
+article:nth-child(111){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 11;
+}
+
+article:nth-child(112){
+    background-color: plum;
+    grid-column: span 1;
+}
+
+article:nth-child(113){
+    background-color: rgb(214, 155, 95);
+    grid-column: span 3;
+}
+
+article:nth-child(114){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 2;
+}
+
+article:nth-child(115){
+    background-color: rgb(214, 155, 95);
+    grid-column: span 2;
+}
+
+article:nth-child(116){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 1;
+}
+
+article:nth-child(117){
+    background-color: rgb(214, 155, 95);
+    grid-column: span 3;
+}
+
+article:nth-child(118){
+    background-color: rgb(184, 105, 44);
+    grid-column: span 1;
+}
+
+article:nth-child(119){
+    background-color: black;
+    grid-column: span 1;
+}
+
+article:nth-child(120){
+    background-color: white;
+    grid-column: span 1;
+}
+
+article:nth-child(121){
+    background-color: black;
+    grid-column: span 3;
+}
+
+article:nth-child(122){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 1;
+}
+
+article:nth-child(123){
+    background-color: white;
+    grid-column: span 7;
+}
+
+article:nth-child(124){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 3;
+}
+
+article:nth-child(125){
+    background-color: rgb(214, 155, 95);
+    grid-column: span 12;
+}
+
+article:nth-child(126){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 2;
+}
+
+article:nth-child(127){
+    background-color: white;
+    grid-column: span 2;
+}
+
+article:nth-child(128){
+    background-color: black;
+    grid-column: span 1;
+}
+
+article:nth-child(129){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 2;
+}
+
+article:nth-child(130){
+    background-color: white;
+    grid-column: span 8;
+}
+
+article:nth-child(131){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 2;
+}
+
+article:nth-child(132){
+    background-color: rgb(214, 155, 95);
+    grid-column: span 11;
+}
+
+article:nth-child(133){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 1;
+}
+
+article:nth-child(134){
+    background-color: rgb(214, 155, 95);
+    grid-column: span 1;
+}
+
+article:nth-child(135){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 5;
+}
+
+article:nth-child(136){
+    background-color: white;
+    grid-column: span 9;
+}
+
+article:nth-child(137){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 2;
+}
+
+article:nth-child(138){
+    background-color: rgb(214, 155, 95);
+    grid-column: span 4;
+}
+
+article:nth-child(139){
+    background-color: black;
+    grid-column: span 4;
+}
+
+article:nth-child(140){
+    background-color: rgb(214, 155, 95);
+    grid-column: span 6;
+}
+
+article:nth-child(141){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 3;
+}
+
+article:nth-child(142){
+    background-color: white;
+    grid-column: span 9;
+}
+
+article:nth-child(143){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 3;
+}
+
+article:nth-child(144){
+    background-color: rgb(214, 155, 95);
+    grid-column: span 2;
+}
+
+article:nth-child(145){
+    background-color: white;
+    grid-column: span 1;
+}
+
+article:nth-child(146){
+    background-color: black;
+    grid-column: span 5;
+}
+
+article:nth-child(147){
+    background-color: white;
+    grid-column: span 1;
+}
+
+article:nth-child(148){
+    background-color: rgb(214, 155, 95);
+    grid-column: span 4;
+}
+
+article:nth-child(149){
+    background-color: white;
+    grid-column: span 14;
+}
+
+article:nth-child(150){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 2;
+}
+
+article:nth-child(151){
+    background-color: rgb(214, 155, 95);
+    grid-column: span 2;
+}
+
+article:nth-child(152){
+    background-color: white;
+    grid-column: span 1;
+}
+
+article:nth-child(153){
+    background-color: black;
+    grid-column: span 4;
+}
+
+article:nth-child(154){
+    background-color: white;
+    grid-column: span 2;
+}
+
+article:nth-child(155){
+    background-color: rgb(214, 155, 95);
+    grid-column: span 4;
+}
+
+article:nth-child(156){
+    background-color: white;
+    grid-column: span 14;
+}
+
+article:nth-child(157){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 2;
+}
+
+article:nth-child(158){
+    background-color: rgb(214, 155, 95);
+    grid-column: span 2;
+}
+
+article:nth-child(159){
+    background-color: white;
+    grid-column: span 1;
+}
+
+article:nth-child(160){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 1;
+}
+
+article:nth-child(161){
+    background-color: black;
+    grid-column: span 2;
+}
+
+article:nth-child(162){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 1;
+}
+
+article:nth-child(163){
+    background-color: white;
+    grid-column: span 3;
+}
+
+article:nth-child(164){
+    background-color: rgb(214, 155, 95);
+    grid-column: span 3;
+}
+
+article:nth-child(165){
+    background-color: white;
+    grid-column: span 10;
+}
+
+article:nth-child(166){
+    background-color: rgb(214, 155, 95);
+    grid-column: span 1;
+}
+
+article:nth-child(167){
+    background-color: white;
+    grid-column: span 1;
+}
+
+article:nth-child(168){
+    background-color: rgb(214, 155, 95);
+    grid-column: span 1;
+}
+
+article:nth-child(169){
+    background-color: white;
+    grid-column: span 1;
+}
+
+article:nth-child(170){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 2;
+}
+
+article:nth-child(171){
+    background-color: rgb(214, 155, 95);
+    grid-column: span 3;
+}
+
+article:nth-child(172){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 5;
+}
+
+article:nth-child(173){
+    background-color: white;
+    grid-column: span 2;
+}
+
+article:nth-child(174){
+    background-color: rgb(214, 155, 95);
+    grid-column: span 4;
+}
+
+article:nth-child(175){
+    background-color: white;
+    grid-column: span 5;
+}
+
+article:nth-child(176){
+    background-color: rgb(214, 155, 95);
+    grid-column: span 7;
+}
+
+article:nth-child(177){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 3;
+}
+
+article:nth-child(178){
+    background-color: rgb(214, 155, 95);
+    grid-column: span 3;
+}
+
+article:nth-child(179){
+    background-color: black;
+    grid-column: span 1;
+}
+
+article:nth-child(180){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 4;
+}
+
+article:nth-child(181){
+    background-color: rgb(214, 155, 95);
+    grid-column: span 8;
+}
+
+article:nth-child(182){
+    background-color: white;
+    grid-column: span 2;
+}
+
+article:nth-child(183){
+    background-color: rgb(214, 155, 95);
+    grid-column: span 8;
+}
+
+article:nth-child(184){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 3;
+}
+
+article:nth-child(185){
+    background-color: rgb(214, 155, 95);
+    grid-column: span 4;
+}
+
+article:nth-child(186){
+    background-color: black;
+    grid-column: span 2;
+}
+
+article:nth-child(187){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 2;
+}
+
+article:nth-child(188){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 1;
+}
+
+article:nth-child(189){
+    background-color: black;
+    grid-column: span 2;
+}
+
+article:nth-child(190){
+    background-color: rgb(214, 155, 95);
+    grid-column: span 14;
+}
+
+article:nth-child(191){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 4;
+}
+
+article:nth-child(192){
+    background-color: rgb(214, 155, 95);
+    grid-column: span 6;
+}
+
+article:nth-child(193){
+    background-color: black;
+    grid-column: span 3;
+}
+
+article:nth-child(194){
+    background-color: rgb(214, 155, 95);
+    grid-column: span 16;
+}
+
+article:nth-child(195){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 4;
+}
+
+article:nth-child(196){
+    background-color: rgb(214, 155, 95);
+    grid-column: span 25;
+}
+
+article:nth-child(197){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 4;
+}
+
+article:nth-child(198){
+    background-color: plum;
+    grid-column: span 1;
+}
+
+article:nth-child(199){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 1;
+}
+
+article:nth-child(200){
+    background-color: rgb(214, 155, 95);
+    grid-column: span 22;
+}
+
+article:nth-child(201){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 5;
+}
+
+article:nth-child(202){
+    background-color: plum;
+    grid-column: span 1;
+}
+
+article:nth-child(203){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 1;
+}
+
+article:nth-child(204){
+    background-color: rgb(214, 155, 95);
+    grid-column: span 23;
+}
+
+article:nth-child(205){
+    background-color: rgb(226, 118, 75);
+    grid-column: span 4;
+}
